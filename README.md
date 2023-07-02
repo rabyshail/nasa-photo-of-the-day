@@ -26,9 +26,9 @@ Once you get the data back, there may be more or less than expected, so your des
 
 This project was put together using create-react-app (CRA). You will not need to install CRA to make this project work. Follow the steps below to set up the project with the proper dependencies.
 
-- [ ] Clone the repository to your machine using your terminal.
-- [ ] Download project dependencies by running `npm install`
-- [ ] Start up the app using `npm start`
+- [X] Clone the repository to your machine using your terminal.
+- [X] Download project dependencies by running `npm install`
+- [X] Start up the app using `npm start`
 - [ ] Implement the project on the `main` branch, committing changes regularly
 - [ ] Push commits: `git push origin main`
 
@@ -48,9 +48,9 @@ This project was put together using create-react-app (CRA). You will not need to
 
 **Fetching the Data**
 
-- [ ] In `App.js` (or where ever you want to fetch the data), add state for the data you'll get from NASA.
-- [ ] Add an effect hook to handle the API call side effect.
-- [ ] Go to the [NASA APOD API docs](https://api.nasa.gov/#apod) and read through the docs to see how to make the API call.
+- [X] In `App.js` (or where ever you want to fetch the data), add state for the data you'll get from NASA.
+- [X] Add an effect hook to handle the API call side effect.
+- [X] Go to the [NASA APOD API docs](https://api.nasa.gov/#apod) and read through the docs to see how to make the API call.
 - [ ] You don't _need_ an API key. However, you may need one if you exceed the API request limits.
 - [ ] Using the endpoint given, fetch the data using `axios`.
 - [ ] In your `.then()`, make sure to `console.log` the response so you can look at the shape of the data. 😃
